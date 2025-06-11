@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    color: white;
+    background-color: rgb(109, 0, 0);
+    
+    
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.div-header {
+    display: flex;
+    
+}
+
+.imagens-filmes img{
+    width: 15em;
+    height: 20em;
+
+}
+
+.filmes {
+    padding-bottom: 40px;
+}
+
+.imagens-sucessos img{
+    width: 15em;
+    height: 20em;
+    
+}
+
+.sucessos-bilheteria {
+    padding-bottom: 40px;
+}
+
+.imagens-jogos img{
+    width: 15em;
+    height: 20em;
+    
+}
+
+.jogos {
+    padding-bottom: 40px;
+}
+
+.imagens-series img{
+    width: 15em;
+    height: 20em;
+    
+}
+
+.series {
+    padding-bottom: 40px;
+}
+
+.imagens-series-animadas img{
+    width: 15em;
+    height: 20em;
+    
+}
+
+.series-animadas {
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.button-ancora-login {
+    background-color: transparent;
+    color: rgb(199, 0, 0);
+    border: 2px solid rgb(199, 0, 0);
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-ancora-login:hover {
+    border: 2px solid rgb(139, 0, 0);
+    color: rgb(139, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.button-registrar {
+    background-color: rgb(199, 0, 0);
+    color: rgb(14, 13, 13);
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-registrar:hover {
+    background-color: rgb(121, 0, 0);
+    color: rgb(211, 211, 211);
+    transition: 0.2s ease-in-out;
+}
+
+.button-sobre {
+    background-color: transparent;
+    color: rgb(207, 0, 0);
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.button-sobre:hover {
+    color: rgb(139, 0, 0);
+    transition: 0.2s ease-in-out;
+}
