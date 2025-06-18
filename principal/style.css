@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 * {
     padding: 0;
     outline: 0;
@@ -7,78 +8,111 @@
 }
 
 body {
-    color: white;
-    background-color: rgb(109, 0, 0);
-    
-    
+    color: #27301b;
+    background-color: #e4dbce;
+
 }
 
 header {
-    background-color: black;
+    background-color: #354024;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 20px;
+    font-weight: 500;
+    color: rgb(248, 243, 236);
+    
 
+}
+
+h2 {
+ padding-left: 40px;
+ font-family: "Rowdies", sans-serif;
+ font-size: 25px;
+ color: rgb(248, 243, 236);
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 3em;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 200;
 }
 
 .div-header {
     display: flex;
+
     
+}
+
+.container {
+    background-color: #354024;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .imagens-filmes img{
     width: 15em;
     height: 20em;
-
+    border-radius: 10px;
 }
 
 .filmes {
     padding-bottom: 40px;
+    color: rgb(248, 243, 236);
 }
 
 .imagens-sucessos img{
     width: 15em;
     height: 20em;
-    
+    border-radius: 10px;
 }
 
 .sucessos-bilheteria {
     padding-bottom: 40px;
+    color: rgb(248, 243, 236);
 }
 
 .imagens-jogos img{
     width: 15em;
     height: 20em;
-    
+    border-radius: 10px;
 }
 
 .jogos {
     padding-bottom: 40px;
+    color: rgb(248, 243, 236);
 }
 
 .imagens-series img{
     width: 15em;
     height: 20em;
-    
+    border-radius: 10px;
 }
 
 .series {
     padding-bottom: 40px;
+    color: rgb(248, 243, 236);
 }
 
 .imagens-series-animadas img{
     width: 15em;
     height: 20em;
-    
+    border-radius: 10px;
 }
 
 .series-animadas {
     padding-bottom: 40px;
+    color: rgb(248, 243, 236);
 }
 
 h3 {
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
     
 }
 
@@ -90,8 +124,8 @@ a {
 
 .button-ancora-login {
     background-color: transparent;
-    color: rgb(199, 0, 0);
-    border: 2px solid rgb(199, 0, 0);
+    color: #687e47;
+    border: 2px solid #687e47;
     width: 60px;
     height: 30px;
     border-radius: 10px;
@@ -99,13 +133,13 @@ a {
 }
 
 .button-ancora-login:hover {
-    border: 2px solid rgb(139, 0, 0);
-    color: rgb(139, 0, 0);
+    border: 2px solid #4f5f36;
+    color: #4f5f36;
     transition: 0.2s ease-in-out;
 }
 
 .button-registrar {
-    background-color: rgb(199, 0, 0);
+    background-color: #687e47;
     color: rgb(14, 13, 13);
     width: 90px;
     height: 30px;
@@ -114,20 +148,50 @@ a {
 }
 
 .button-registrar:hover {
-    background-color: rgb(121, 0, 0);
-    color: rgb(211, 211, 211);
+    background-color: #4f5f36;
+    color: rgb(14, 13, 13);
     transition: 0.2s ease-in-out;
 }
 
 .button-sobre {
     background-color: transparent;
-    color: rgb(207, 0, 0);
+    color: #687e47;
     width: 50px;
     height: 30px;
     cursor: pointer;
 }
 
 .button-sobre:hover {
-    color: rgb(139, 0, 0);
+    color: #4f5f36;
     transition: 0.2s ease-in-out;
 }
+
+@-webkit-keyframes slide-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(-400px);
+            transform: translateZ(-400px);
+  }
+}
+@keyframes slide-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(-400px);
+            transform: translateZ(-400px);
+  }
+}
+
+.section img {
+    animation: slide-bck-center 0.5s ease;
+}
+
+.section img:hover {
+    animation: slide-bck-center 0.5s ease;
+}
+

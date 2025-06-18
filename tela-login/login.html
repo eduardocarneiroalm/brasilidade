@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="container">
-        <h2 class="h2">Login</h2>
-
-        <input type="text" placeholder="Email" class="email">
-        <input type="password" placeholder="Senha" class="senha">
+  <main class="box-login">
+    <section class="login">
+      <h2>Entrar</h2>
+      <div>
+        <label for="email">Usuário:</label>
+        <input type="text" id="email" placeholder="Digite seu e-mail">
+      </div>
+        <div>
+           <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="Digite sua senha">
+       
+        </div>
         
-        <a href="/principal/index.html" class="ancora">
-
-            <button class="botao">Enviar</button>
-        </a>
-        
+      
+      <a href="/principal/index.html">
+        <button>Entrar</button>
+      </a>
+      
     </section>
+
+    <section class="welcome">
+      <h2>Olá!</h2>
+      <p>Aqui você irá encontrar conteúdos brasileiros para o seu entretenimento.</p>
+      
+    </section>
+  </main>
 </body>
 </html>
