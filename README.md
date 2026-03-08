@@ -76,7 +76,8 @@ git clone minha-feature
  
 ```
    
-2. vá até o arquivo de HTML e inicie
+2. Vá em  **File** e vá até onde você clonou o projeto
+3. Abra o projeto e inicie
 
 ---
 
