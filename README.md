@@ -55,7 +55,7 @@ brasilidade
 
 ├── tela-login
     └── login.html
-    └──styles.css
+    └── styles.css
 
 
 ```
@@ -82,7 +82,6 @@ Durante o desenvolvimento deste projeto foi possível praticar:
 1. Clone o repositório
 ```
 git clone minha-feature
- 
 ```
    
 2. Vá em  **File** e vá até onde você clonou o projeto
