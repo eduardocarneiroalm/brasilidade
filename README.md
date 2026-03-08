@@ -6,9 +6,8 @@ A aplicação foi criada como **protótipo para apresentação na Feira de Ciên
 O projeto também serviu como prática de **desenvolvimento web**, trabalhando conceitos de estruturação de páginas, organização de conteúdo e estilização.
 
 <br/>
----
 
-<br/>
+---
 
 ## 🎯 Objetivo do projeto
 
@@ -17,9 +16,9 @@ O projeto também serviu como prática de **desenvolvimento web**, trabalhando c
 - Praticar desenvolvimento web  
 - Trabalhar organização e apresentação de conteúdo em páginas web  
 
----
-
 <br/>
+
+---
 
 ## 🚀 Funcionalidades
 
@@ -27,14 +26,20 @@ O projeto também serviu como prática de **desenvolvimento web**, trabalhando c
 - Apresentação de conteúdos culturais  
 - Interface simples e visual  
 - Estrutura organizada de páginas
+
 <br/>
+
 ---
 
 ## 🛠 Tecnologias utilizadas
 
 - HTML  
 - CSS
+
 <br/>
+
+---
+
 ## 📂 Estrutura do projeto
 
 ```
@@ -45,7 +50,12 @@ brasilidade
 └── assets/
 
 ```
+
 <br/>
+
+
+---
+
 ## 📚 Aprendizados
 
 Durante o desenvolvimento deste projeto foi possível praticar:
@@ -54,8 +64,10 @@ Durante o desenvolvimento deste projeto foi possível praticar:
 - Estilização de interfaces com **CSS**
 - Apresentação de um projeto tecnológico em um evento escolar
 
----
 <br/>
+
+---
+
 ## 👨‍💻 Autor
 
 Desenvolvido por **Eduardo Carneiro**
