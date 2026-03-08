@@ -68,6 +68,18 @@ Durante o desenvolvimento deste projeto foi possível praticar:
 
 ---
 
+## Como iniciar o projeto
+
+1. Clone o repositório
+```
+git clone minha-feature
+ 
+```
+   
+2. vá até o arquivo de HTML e inicie
+
+---
+
 ## 👨‍💻 Autor
 
 Desenvolvido por **Eduardo Carneiro**
