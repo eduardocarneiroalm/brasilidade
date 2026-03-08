@@ -46,11 +46,13 @@ O projeto também serviu como prática de **desenvolvimento web**, trabalhando c
 brasilidade
 ├── images
     └── imagens diversas
+
 ├── principal
     └── index.html
     └── sobre.styles
     └── sobre.html
     └── style.css
+
 ├── tela-login
     └── login.html
     └──styles.css
