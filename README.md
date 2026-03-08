@@ -44,10 +44,17 @@ O projeto também serviu como prática de **desenvolvimento web**, trabalhando c
 
 ```
 brasilidade
-├── index.html
-├── style.css
-├── script.js
-└── assets/
+├── images
+    └── imagens diversas
+├── principal
+    └── index.html
+    └── sobre.styles
+    └── sobre.html
+    └── style.css
+├── tela-login
+    └── login.html
+    └──styles.css
+
 
 ```
 
